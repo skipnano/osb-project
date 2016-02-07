@@ -1,0 +1,310 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background: url(../images/old.stanleys.jpg) no-repeat rgba(0,0,0,0.8);
+  background-size: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  background-color: rgba(0,0,0,0.3);
+  background-width: 100%;
+  clear: both;
+}
+.masthead-brand {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  height: 100px;
+  border-radius: 25px;
+  float: left;
+}
+.masthead-nav {
+  float: right;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  /*border-bottom-color: #a9a9a9;*/
+  /*border-bottom-color: rgba(255,255,255,.25);*/
+  border-bottom-color: red;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+/*.social {
+  margin-bottom: 100px;
+}*/
+/*.social img{
+  width: 55px;
+}*/
+#yelp{
+  width: 80px;
+  height: 80px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 0, 0, .8);
+  border-radius: 15px;
+}
+#facebook {
+   margin-right: 28px;
+   margin-bottom: 10px;
+   width: 80px;
+   height: 80px;
+   background-color: rgba(255, 0, 0, .8);
+   border-radius: 15px;
+}
+#instagram {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 0, 0, .8);
+  padding: 5px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+#yelp:hover {
+  background-color: blue;
+  } 
+#instagram:hover {
+  background-color: blue;
+}
+#facebook:hover {
+  background-color: blue;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 1px;
+  background-color: rgba(0,0,0,0.35);
+  margin: 135px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.lead {
+  font-size: 35px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600italic;
+}
+.cover-heading {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  margin: 20px;
+}
+/*BEERS SECTION*/
+.beers {
+  background-color: rgba(0,0,0,.8);
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  z-index: 2;
+}
+.beers ul {
+  list-style: none;
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-align: center;
+}
+.beers h2 {
+  font-size: 45px;
+  padding: 10px 0 20px 0;
+  margin: 0;
+}
+.beers h3 {
+  font-size: 35px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+}
+/*BEERS SECTION*/
+
+/*CONTACT & LOCATION*/
+.location {
+  margin-top: 75px;
+  width: 100%;
+  padding: 0;
+  clear: both;
+}
+.location p {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  font-size: 40px;
+  background-color: rgba(255, 0, 0, .4);
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  font-size: 18px;
+  clear: both;
+}
+footer {
+  /*margin: 10px;*/
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (max-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    /*position: fixed;*/
+    top: 0;
+    display: none;
+  }
+  .mastfoot {
+    /*position: fixed;*/
+    bottom: 0;
+  }
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+   /*Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+  .cover {
+    margin: 90px;
+  }
+  .cover-heading {
+    font-size: 45px;
+  }
+  .lead {
+    font-size: 25px
+  }
+  #instagram,
+  #yelp,
+  #facebook {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .beers h2 {
+    font-size: 30px;
+    padding: 0px;
+    margin-left: 20px;
+  }
+  .beers h3 {
+    font-size: 25px;
+    /*margin-left: 0;*/
+    text-align: center;
+  }
+  .beers li {
+    font-size: 20px;
+  }
+  .beers ul {
+    text-align: center;
+  }
+  .location p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cover {
+    margin: 20px;
+  }
+  .cover-heading {
+    font-size: 30px;
+  }
+  .lead {
+    font-size: 25px
+  }
+  .beers {
+    margin-right: 5%;
+  }
+  
+}
