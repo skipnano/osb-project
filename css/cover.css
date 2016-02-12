@@ -164,10 +164,10 @@ body {
 .lead {
   font-size: 35px;
   font-family: 'Josefin Slab', serif;
-  font-weight: 600italic;
+  font-weight: 700;
 }
 .cover-heading {
-  font-size: 60px;
+  font-size: 75px;
   font-family: 'Pacifico', cursive;
   margin: 20px;
 }
@@ -202,6 +202,8 @@ body {
   width: 100%;
   padding: 0;
   clear: both;
+  background-color: rgba(0,0,0,.8);
+
 }
 .location p {
   font-family: 'Josefin Slab', serif;
@@ -219,6 +221,9 @@ body {
   color: rgba(255,255,255,.5);
   font-size: 18px;
   clear: both;
+}
+.mastfoot span {
+  color: rgba(255,255,255,255);
 }
 footer {
   /*margin: 10px;*/
@@ -290,6 +295,15 @@ footer {
   }
   .location p {
     font-size: 25px;
+  }
+  #yelp:hover {
+    background-color: rgba(255, 0, 0, .8);
+  } 
+  #instagram:hover {
+    background-color: rgba(255, 0, 0, .8);
+  }
+  #facebook:hover {
+    background-color: rgba(255, 0, 0, .8);
   }
 }
 
