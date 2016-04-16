@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,29 +13,28 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Pacifico|Josefin+Slab:400,600italic,700' rel='stylesheet' type='text/css'>
     <link href="css/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script /src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-        <!-- <div class="masthead clearfix">
-            <div class="inner">
-              <img class="masthead-brand" src="images/business_logo.png"></img> 
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a class="beer-btn" href="#beers">Beers</a></li>
-                  <li><a href="#directions">Directions</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div> -->
-
           <div class="inner cover">
             <h1 class="cover-heading">Old Stanley's Bar</h1>
             <p class="lead">Our beer is cold, our bartenders are friendly, and we have a back yard. Come on over and have some fun with us.</p>
@@ -48,38 +47,40 @@
           </div> <!-- end inner cover -->
 
           <!-- Start Beers -->
-          <div class="beers" id="beers">
-            <h2>Our Beers and Specials</h2>
-            <div class="col-sm-4 beers">
-              <h3>Draught</h3>
-              <ul>
-                <li>Bud Light</li>
-                <li>Guiness</li>
-                <li>Anchor Steam</li>
-                <li>Lagunitas IPA</li>
-                <li>Kolsch</li>
-              </ul>
-            </div>
-            <div class="col-sm-4 beers">
-              <h3>Bottles</h3>
-              <ul>
-                <li>Budweiser</li>
-                <li>Coors Light</li>
-                <li>Miller High Life</li>
-                <li>Labatt Blue</li>
-                <li>Shiner Bock<li>
-              </ul>
-            </div>
-            <div class="col-sm-4 beers">
-              <h3>Drink Specials/Food</h3>
-              <ul>
-                <li>Ethel O'Conner</li>
-                <li>Beer and Shot Combos</li>
-                <li>Pretzels</li>
-                <li>Hotdogs</li>
-                <li>BBQ on Sundays!</li>
-              </ul>
-            </div>
+          <div class="beers beer-btn">
+            <h2>Our Beers and Specials<i class="fa fa-beer" aria-hidden="true"></i></h2>
+            <div id="mobileBeers">
+              <div class="col-sm-4 beers">
+                <h3>Draught</h3>
+                <ul>
+                  <li>Bud Light</li>
+                  <li>Guiness</li>
+                  <li>Anchor Steam</li>
+                  <li>Lagunitas IPA</li>
+                  <li>Kolsch</li>
+                </ul>
+              </div>
+              <div class="col-sm-4 beers">
+                <h3>Bottles</h3>
+                <ul>
+                  <li>Budweiser</li>
+                  <li>Coors Light</li>
+                  <li>Miller High Life</li>
+                  <li>Labatt Blue</li>
+                  <li>Shiner Bock<li>
+                </ul>
+              </div>
+              <div class="col-sm-4 beers">
+                <h3>Drink Specials/Food</h3>
+                <ul>
+                  <li>Ethel O'Conner</li>
+                  <li>Beer and Shot Combos</li>
+                  <li>Pretzels</li>
+                  <li>Hotdogs</li>
+                  <li>BBQ on Sundays!</li>
+                </ul>
+              </div>
+            </div> <!-- end mobileBeers -->
           </div> <!-- end beers -->
 
           <!-- start location -->
@@ -92,7 +93,7 @@
           
           <!-- start mastfoot -->
           <div class="mastfoot">
-              <p>Old Stanley's Bar &copy;2016 Made in NYC by <span>Skipnano</span>.</p>
+              <p>Old Stanley's Bar &copy;2016 Made in NYC by <span>Dean Gilroy</span>.</p>
           </div> <!-- end mastfoot -->
         </div>
       </div>
@@ -107,5 +108,5 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   
-  </body>
+</body>
 </html>

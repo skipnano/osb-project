@@ -1,3 +1,7 @@
+/*Coded by Dean Gilroy*/
+/*For Old Stanley's Bar*/
+/*Version 1.0*/
+
 /*
  * Globals
  */
@@ -194,7 +198,10 @@ body {
   padding-bottom: 15px;
   margin-left: 30px;
 }
-/*BEERS SECTION*/
+.fa-beer {
+  margin-left: 10px;
+}
+/*END BEERS SECTION*/
 
 /*CONTACT & LOCATION*/
 .location {
@@ -277,6 +284,9 @@ footer {
     height: 50px;
     border-radius: 10px;
   }
+  #mobileBeers {
+    display: none;
+  }
   .beers h2 {
     font-size: 30px;
     padding: 0px;
@@ -320,5 +330,7 @@ footer {
   .beers {
     margin-right: 5%;
   }
-  
+  #mobileBeers {
+    display: none;
+  }
 }
