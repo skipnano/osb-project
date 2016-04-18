@@ -289,8 +289,10 @@ footer {
   }
   .beers h2 {
     font-size: 30px;
-    padding: 0px;
+    padding: 1px;
     margin-left: 20px;
+    border: 4px solid white;
+    border-radius: 3px;
   }
   .beers h3 {
     font-size: 25px;

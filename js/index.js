@@ -10,6 +10,6 @@ $( document ).ready(function() {
     	event.preventDefault();
     	console.log("You clicked this");
 
-    	$('#mobileBeers').slideToggle(500);
+    	$('#mobileBeers').slideToggle(800);
     });
 });
